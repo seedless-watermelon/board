@@ -11,7 +11,7 @@ if ($this->session->userdata("admin")!=1)
             <td width="20%" class="" style="vertical-align:middle">uid</td>
             <td width="80%"> <?=$row->uid;?> </td>
         </tr>
-        <tr>
+        <tr> 
             <td width="20%" class="" style="vertical-align:middle">아이디</td>
             <td width="80%">
                 <div class="form-inline">

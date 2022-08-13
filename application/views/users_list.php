@@ -23,7 +23,7 @@ if ($this->session->userdata("admin")!=1)
                 <select class="form-control form-control-sm" name="target">
                 <!-- <option value="nickname">닉네임</option> -->
                 <option value="ID">ID</option>
-            </select>
+            </select> 
 				</div>
 				<input type="text" name="text1" value="<?=$text1;?>" class="form-control form-control-sm" onkeydown="if (event.keyCode == 13){ find_text(); }">
 				<span class="input-group-append">

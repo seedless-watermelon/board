@@ -12,7 +12,7 @@
 						<td style="width: 20%;">글 제목</td>
 						<td colspan="2"><?=$row->title;?></td>
 					</tr>
-					<tr>
+					<tr> 
 						<td>작성자</td>
 						<td colspan="2"><?=$row->writer;?></td>
 					</tr>

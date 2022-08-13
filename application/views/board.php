@@ -13,7 +13,7 @@
 </script>
 
 <?
-    if (!$this->session->userdata('id')) 
+    if (!$this->session->userdata('id'))
         echo("글 작성은 로그인이 필요합니다.");
     else
         echo("<a href='/b/write'  class='btn btn btn-outline-dark'>글 작성</a>");

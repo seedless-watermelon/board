@@ -8,4 +8,4 @@ class Login_m extends CI_Model
         return $this->db->query($sql)->row();
     }
 }
-?>
+?> 

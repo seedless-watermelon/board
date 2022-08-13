@@ -9,7 +9,7 @@
         <div class="row">
             <div class="form-group col-12">
                 <div class="input-group input-group-sm">
-                    <div class="input-group-prepend">
+                    <div class="input-group-prepend"> 
                     <span class="input-group-text">제목</span>
                     </div>
                     <input type="text" name="title" class="form-control form-control-sm" maxlength="50" value="<?=$row->title;?>" >

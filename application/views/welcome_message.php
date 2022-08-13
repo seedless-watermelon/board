@@ -1,4 +1,4 @@
 <?
     redirect("/b/notice");
 ?>
-안녕
+안녕dd

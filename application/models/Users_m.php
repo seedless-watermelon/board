@@ -11,7 +11,7 @@ class Users_m extends CI_Model
             
         return $this->db->query($sql)->result();
     }
-
+ 
     function getrow($uid)
     {
         $sql="SELECT * FROM users where uid=$uid";

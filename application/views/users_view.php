@@ -22,7 +22,7 @@
                 <td width="20%" class="" style="vertical-align:middle">비밀번호</td>
                 <td width="80%"><?=$row->pwd;?></td>
             </tr>
-            <tr>
+            <tr> 
                 <td width="20%" class="" style="vertical-align:middle">닉네임</td>
                 <td width="80%"><?=$row->nickname;?></td>
             </tr>

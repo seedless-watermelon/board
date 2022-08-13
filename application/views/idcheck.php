@@ -26,6 +26,7 @@ if ($this->register_m->checkid($id) == false) {
 			<b>$id</b>는 사용 가능한 아이디입니다.  
 		</td>
 	</tr>
+	
 	<tr>
 		<td height='50'>
 			<a href='javascript:Close_me(\"yes\");'><button type='button' class='btn btn-outline-secondary btn-sm'>확인</button></a>

@@ -16,7 +16,7 @@
     if ($this->session->userdata('admin') == 1) 
         echo("<a href='/b/writenotice'  class='btn btn btn-outline-dark'>공지 작성</a>");        
     else
-        echo("");
+        echo(""); 
 ?>
 
 <br>

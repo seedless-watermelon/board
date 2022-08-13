@@ -13,7 +13,7 @@ class Register_m extends CI_Model
         $query = $this->db->get('users');
         if($query->num_rows() > 0){
             return true;
-        }
+        } 
         else {
             return false;
         }

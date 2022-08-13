@@ -38,7 +38,7 @@ class B_m extends CI_Model
         $sql="DELETE from board where num=$num";
         return $this->db->query($sql);
     }
-
+ 
     function editrow($row, $num)
     {
         $where=array("num"=>$num);

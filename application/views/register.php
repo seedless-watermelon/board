@@ -15,6 +15,7 @@
 
     <table class="table table-striped table-hover">
         <tr>
+            
             <td width="20%" class="" style="vertical-align:middle">아이디</td>
             <td width="80%">
                 <div class="form-inline">
