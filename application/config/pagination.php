@@ -17,4 +17,4 @@
     $config["next_tag_close"] = "</li>";
     $config["last_tag_open"] = "<li class='page-item'>";
     $config["last_tag_close"] = "</li>";
-?>
+?> 

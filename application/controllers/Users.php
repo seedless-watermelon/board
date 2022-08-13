@@ -21,7 +21,7 @@
             $uri_array = $this->uri->uri_to_assoc(3);
             $text1 = array_key_exists("search",$uri_array) ? urldecode($uri_array["search"]) : "";
             
-            //$text1=urldecode($this->uri->segment(3) ?? "");
+            //$text1=urldecode($this->uri->segment(3) ?? ""); 
             
             if ($text1 == "")
                 $base_url = "/users/lists/page";

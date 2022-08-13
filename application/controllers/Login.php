@@ -9,7 +9,7 @@
             $this->load->model("login_m");
             $this->load->helper(array("url","date"));
         }
-
+ 
         public function index()
         {
         }

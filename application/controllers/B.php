@@ -84,7 +84,7 @@
             $this->load->view("notice",$data);
             $this->load->view("footer");
         }
-
+ 
         public function view()
         {
             $uri_array = $this->uri->uri_to_assoc(3);

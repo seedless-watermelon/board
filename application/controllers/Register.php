@@ -62,7 +62,7 @@ class Register extends CI_Controller
         $id=$this->uri->segment(3);
         
         $this->load->view("idcheck");
-
+ 
         $result=$this->register_m->checkid($id);
     }
 

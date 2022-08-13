@@ -17,3 +17,4 @@ $config = array(
 		'weight'   => '1',
 	),
 );
+ 
